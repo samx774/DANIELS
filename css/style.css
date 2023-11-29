@@ -13,6 +13,8 @@ a{
 }
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.6)) , url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 header h3{
     font-weight: 700;
