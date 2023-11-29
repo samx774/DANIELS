@@ -1,0 +1,27 @@
+@media (max-width: 992px){
+    .navbar-expand-lg .navbar-nav{
+        align-items: center;
+    }
+}
+@media (max-width: 600px){
+    header .header-content h1{
+        font-size: 38px;
+    }
+    @keyframes width-fix{
+        0%{
+            width: 250px;
+        }
+        25%{
+            width: 0px;
+        }
+        50%{
+            width: 250px;
+        }
+        75%{
+            width: 0px;
+        }
+        100%{
+            width: 250px;
+        }
+    }
+}
